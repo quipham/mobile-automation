@@ -28,8 +28,6 @@ public abstract class AbstractTest {
     protected Login login;
     protected SeatSelecting seatSelecting;
 
-    protected static final String INVALID_PIN = "333333";
-
     @AfterSuite
     public void globalTearDown() {
         PoolFactory.closeDriver();
