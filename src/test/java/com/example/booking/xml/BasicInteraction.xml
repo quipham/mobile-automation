@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BookingExampleTest">
+    <listeners>
+        <listener class-name="com.example.booking.manage.TestListener"/>
+    </listeners>
+    <test name="BookingExampleTest">
+        <classes>
+            <class name="com.example.booking.test.BasicInteractionTest"/>
+        </classes>
+    </test>
+</suite>
