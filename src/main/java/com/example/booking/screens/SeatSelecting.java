@@ -49,7 +49,6 @@ public class SeatSelecting extends AbstractScreen {
         normalSeat.click();
         lAmourSeat.click();
         doubleSeat.click();
-        premiumSeat.click();
         billingInfo = new BillingInfo();
         billingInfo.setMovieName(movieName.getText());
         billingInfo.setDescription(movieType.getText());

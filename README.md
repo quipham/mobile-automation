@@ -27,7 +27,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 ##### 5/ Confirm The Ticket order and verify Billing Info
 
 ## Running the test
-- This build is config to running only on MAC because of directory absolute path
+- This build is config to running only on MAC because of directory absolute path and Android SDK setup with brew
 - Make sure you have connected device (Check by "adb devices" command)
 - Due to no Test APK so the Android Driver Init by the other way, It may lead to Test failure due to device specific (Recommend use SAMSUNG phone and non root device)
 - Execute Maven Command

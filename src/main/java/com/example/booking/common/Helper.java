@@ -10,7 +10,7 @@ public class Helper {
     public static String getCurrentTime() {
         Calendar cal = Calendar.getInstance();
         Date date = cal.getTime();
-        DateFormat dateFormat = new SimpleDateFormat("MM:dd-HH:mm:ss");
+        DateFormat dateFormat = new SimpleDateFormat("MM-dd-HH-mm-ss");
         return dateFormat.format(date);
     }
 

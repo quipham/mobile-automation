@@ -23,6 +23,7 @@ import java.util.concurrent.TimeUnit;
 public abstract class AbstractTest {
     private AndroidControl control;
     protected ExtentTest extentTest;
+    protected static String USER_NAME = "quipham1408";
 
     protected CGVHome cgvHome;
     protected Login login;
@@ -46,7 +47,7 @@ public abstract class AbstractTest {
             control.installAPK(apkPath);
         }
 
-        clearAppData();
+        //clearAppData();
         PoolFactory.setDriver(PoolFactory.initLocalDriver(service.getUrl(), deviceId));
         AndroidDriver<WebElement> driver = PoolFactory.getDriver();
         driver.manage().timeouts().implicitlyWait(14000, TimeUnit.MILLISECONDS);

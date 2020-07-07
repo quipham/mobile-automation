@@ -6,15 +6,7 @@ import org.testng.annotations.Test;
 public class BasicInteractionTest extends AbstractTest {
     @Test
     public void orderTicket() {
-        String user = "quipham1408";
-        String pass = "123456";
-        extentTest.info("Start test with User: " + user);
-        cgvHome.openMenuBar();
-        extentTest.info("Open The Menu Bar");
-        cgvHome.clickOnLoginBtn();
-        extentTest.info("Navigate to Login screen");
-        login.loginToCGVApp(user, pass);
-        extentTest.info("Login to CGV App");
+        extentTest.info("Start test with User: " + USER_NAME);
         cgvHome.selectShowingMovie();
         extentTest.info("Selecting showing movie on Home screen");
         cgvHome.clickOnBookTicketBtn();
