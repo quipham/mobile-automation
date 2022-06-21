@@ -86,7 +86,7 @@
         <log4j.version>2.9.1</log4j.version>
         <rxjava.jdbc>0.7.16</rxjava.jdbc>
         <redisson>3.9.1</redisson>
-        <mysql.connector>8.0.13</mysql.connector>
+        <mysql.connector>8.0.28</mysql.connector>
         <extent.reports>4.0.5</extent.reports>
         <slf4j>1.7.5</slf4j>
     </properties>
